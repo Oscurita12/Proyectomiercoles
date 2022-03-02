@@ -30,7 +30,7 @@ console.log(productos)
 console.log(productos2[0])*/
 
 
-//Controlando etiquetas 
+/*Controlando etiquetas 
 
 //1. crear una variable para crear una etiqueta 
 let etiquetaTitulo = document.getElementById("titulo")
@@ -52,4 +52,25 @@ etiquetaFoto.src="img/gravityfalls2.png"
 
 //cambiar el estilo de la etiqueta 
 etiquetaTitulo.classList.add("text-center")
-etiquetaTitulo.classList.add("text-danger")
+etiquetaTitulo.classList.add("text-danger")*/
+
+//TIENDA 
+let productosNombre=["camisaDipper","camisaMabel"]
+let productosPrecio=[50000, 50000]
+let productosPromocion=[true,false]
+
+console.log(productosNombre)
+console.log(productosNombre[1])
+
+//creando objetos con JS
+let usuario={
+
+    nombre:"Bruno Madrigal",
+    edad:50,
+    amigos:["Mirabel", "Antonio", "las ratas"]
+
+}
+
+console.log(usuario)
+console.log(usuario.nombre)
+console.log(usuario.amigos[2])
