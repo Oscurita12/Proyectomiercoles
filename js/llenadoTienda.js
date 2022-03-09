@@ -18,3 +18,11 @@ let productos=[
 ]
 
 console.log(productos)
+
+
+//COMO RECORRE UN ARREGLO CON JS
+//1. TENER UN ARREGLO 
+productos.forEach(function(producto){
+    console.log(producto)
+})
+
